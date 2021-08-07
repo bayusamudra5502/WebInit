@@ -83,9 +83,8 @@
     margin-top: -2vh !important;
   }
 
-  .panel ul li {
-    font-size: 14px !important;
-    margin-bottom: 2vh !important;
+  .timeline {
+    max-width: 95vw !important;
   }
 
   #sprout {
@@ -254,7 +253,7 @@ footer {
     rgba(79, 145, 202, 1) 0%,
     rgba(73, 213, 187, 1) 100%
   );
-  color: black;
+  color: white;
   font-weight: bold;
   padding: 10px;
   text-align: center;
@@ -292,7 +291,8 @@ footer {
 }
 
 #inline-list ul li a:hover {
-  color: white;
+  color: rgb(116, 116, 116);
+  font-weight: bold;
 }
 
 .dropbutton {
@@ -372,6 +372,11 @@ em {
   font-weight: bold;
 }
 
-.fa-home {
-  color: black;
+.socmed-images {
+  display: inline;
+  margin: 1vw;
+}
+
+.socmed-images:hover {
+  color: #777;
 }
